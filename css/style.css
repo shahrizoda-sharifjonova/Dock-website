@@ -11,7 +11,11 @@ a{
     text-decoration: none;
 }
 
-.header .container{
+.logo:hover{
+    cursor: pointer;
+}
+
+.container{
     max-width: 1140px;
     width: 100%;
     padding-right: 15px;
@@ -36,19 +40,39 @@ a{
 }
 
 .header__btns{
-
+    margin-top: 10px;
 }
 
 .header__btn{
-    color: #121722;
+    color: rgba(18, 23, 34, 0.7);
     font-size: 16px;
     line-height: 20px;
+    font-weight: bold;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.header__btn:hover{
+    background: rgba(64, 140, 255, 0.1);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.btn-2{
+    background: rgba(64, 140, 255, 0.1);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 30px;
+}
+
+.btn-2:hover{
+    color: rgba(18, 23, 34, 0.7);
+    background: none;
 }
 
 .header__lists{
     display: flex;
     list-style: none;
-    margin-top: 10px;
     margin-left: 50px;
 }
 
@@ -63,4 +87,110 @@ a{
 
 .header__link:hover, .current{
     color: #121722;
+}
+
+.intro__body{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.intro__img{
+    height: 400px;
+}
+
+.intro__title{
+    font-size: 50px;
+    color: #121722;
+    font-weight: normal; 
+}
+
+.intro__text{
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(18, 23, 34, 0.7);
+    margin-top: 20px;
+}
+
+.intro__btn{
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    background: #4058FF;
+    box-shadow: 0px 4px 4px rgba(18, 23, 34, 0.01);
+    border-radius: 100px;
+    transition: 500ms;
+    border: 2px solid #4058FF;
+}
+
+.intro__btn:hover{
+    background: transparent;
+    color: #4058FF;
+}
+
+.btn{
+    margin-top: 40px;
+}
+
+.rec{
+    margin-top: 100px;
+}
+
+.rec__title{
+    text-align: center;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: normal;
+    color: #121722;
+}
+
+.rec__text{
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(18, 23, 34, 0.7);
+    margin-top: 10px;
+}
+
+.rec__column-2{
+    margin: 50px 0px;
+    background: #4058FF;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 35px 50px;
+}
+
+.rec__row__right__title{
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 38px;
+    color: #fff;
+}
+
+.rec__row__right__text{
+    font-size: 16px;
+    line-height: 29px;
+    color: #E8F1FF;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.rec__row__left__img{
+    height: 400px;
+}
+
+hr{
+    box-shadow: none;
+    margin-top: 30px;
+    opacity: 0.4;
+}
+
+.rec__row__right__text-2{
+    font-size: 14px;
+    line-height: 29px;
+    color: #E8F1FF;
+    font-weight: 300;
+    margin-top: 25px;
 }
