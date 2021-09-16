@@ -194,3 +194,31 @@ hr{
     font-weight: 300;
     margin-top: 25px;
 }
+
+.static__body{
+    background: rgba(241, 245, 255, 0.5);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 35px 50px;
+    margin-bottom: 50px;x
+}
+
+.static__row__left__img{
+    height: 450px;
+    border-radius: 17px
+}
+
+.static__title{
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.static__text{
+    color: rgba(18, 23, 34, 0.7);
+}
+
+.static__row__right{
+    padding: 100px 50px;
+}
